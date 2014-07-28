@@ -15,8 +15,6 @@
 
 Папку payu нужно разместить в `{Корневой каталог сайта}/bitrix/php_interface/include/sale_payment/`
 
-Файл payu_result.php нужно вставить в папку `{Корневой каталог сайта}/bitrix/tools/`
-
 #После этого необходимо :
 
 >1. Зайти в административную часть интернет магазина.
@@ -34,7 +32,7 @@
 ![Скриншот][1]
 
 
-В настройках вашего мерчанта на PayU необходимо указать ссылку возврата(IPN) информации о статусе платежа на страницу `http://yoursite.com/bitrix/tools/payu_result.php`
+В настройках вашего мерчанта на PayU необходимо указать ссылку возврата(IPN) информации о статусе платежа на страницу `http://yoursite.com/bitrix//include/sale_payment/payu/payu_result.php`
 
 [bitrixMark]: http://marketplace.1c-bitrix.ru/solutions/payu.payment2/
 [1]: https://raw.github.com/PayUUA/Bitrix/master/screenshot.png
